@@ -42,3 +42,16 @@ Nuestro programa imprimió "Hola Mundo" con la línea:
 /////////////////////////////////////////
 System.out.println("Hello World");
 ////////////////////////////////////////////
+
+Afortunadamente, no estamos limitados a escribir la sintaxis que realiza una tarea. También podemos escribir comentarios, notas a lectores humanos de nuestro código. Estos comentarios no se ejecutan, por lo que no hay necesidad de una sintaxis válida dentro de un comentario.
+
+Cuando los comentarios son cortos usamos la sintaxis de una sola línea:
+////////////////////////////////
+// Esto es comentario java 
+////////////////////////////////////
+Cuando los comentarios son largos usamos la sintaxis multilínea: / * y * /
+/* Probando un comentario
+en java */
+
+
+
