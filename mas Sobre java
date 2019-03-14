@@ -1,0 +1,24 @@
+Java no interpreta los espacios en blanco, las áreas del código sin sintaxis,
+pero los humanos usan los espacios en blanco para leer el código sin dificultad.
+
+Funcionalmente, estos dos ejemplos de código son idénticos:
+/////
+System.out.println("Java");System.out.println("Lava");System.out.println("Guava");
+//////
+System.out.println("Java");
+
+System.out.println("Lava");
+
+System.out.println("Guava");
+//////
+hey imprimirá el mismo texto en la pantalla, pero ¿cuál preferiría leer? 
+¡Imagínate si fueran cientos de instrucciones! El espacio en blanco sería esencial.
+
+Java interpreta los puntos y coma.
+Los puntos y coma se usan para marcar el final de una declaración, 
+una línea de código que realiza una sola tarea.
+/////////
+System.out.println("My message!");.
+////////
+Contrastemos las afirmaciones con el corsé, {}.
+Las llaves de rizo marcan el alcance de nuestras clases y métodos. No hay punto y coma al final de una llave.
