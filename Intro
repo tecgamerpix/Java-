@@ -1,0 +1,44 @@
+JAVA
+Sun Microsystems lanzó el lenguaje de programación Java en 1995. Java es conocido por ser simple, portátil, 
+seguro y robusto.
+Aunque se lanzó hace más de veinte años, Java sigue siendo uno de los lenguajes de programación más populares en la actualidad.
+
+Una de las razones por las que a la gente le encanta Java es la Máquina Virtual de Java,
+que garantiza que el mismo código de Java se pueda ejecutar en diferentes sistemas operativos y plataformas. 
+El eslogan de Sun Microsystems para Java era "escribir una vez, ejecutar en todas partes".
+
+EL MUNDO DE HELLO: JAVA
+Hola archivo de Java!
+Java se ejecuta en diferentes plataformas, pero los programadores lo escriben de la misma manera. Vamos a explorar algunas reglas para escribir Java.
+
+En el último ejercicio, vimos el archivo HelloWorld.java. Los archivos Java tienen una extensión .java. Algunos programas son un archivo, otros son cientos de archivos!
+
+Dentro de HelloWorld.java, tuvimos una clase:
+///////////////////////////////////////
+public class HelloWorld {
+
+}
+////////////////////////////////////
+Hablaremos más sobre las clases en el futuro, pero por ahora consideremos que son un concepto único.
+
+El concepto HelloWorld es: Hello World Printer. Otros conceptos de clase podrían ser: Bicicleta, o: Cuenta de ahorros.
+
+Marcamos el dominio de este concepto usando llaves: {}. La sintaxis dentro de las llaves es parte de la clase.
+
+Cada archivo tiene una clase primaria nombrada después del archivo. Nuestro nombre de clase: HelloWorld y nuestro nombre de archivo: HelloWorld. Cada palabra está en mayúscula.
+
+Dentro de la clase teníamos un método main () que enumera nuestras tareas de programa:
+/////////////////////////////////////////
+public static void main(String[] args) {
+
+}
+/////////////////////////////////////////
+
+Al igual que las clases, utilizamos llaves para marcar el principio y el final de un método.
+
+La sintaxis de public, static y void son información sobre futuras lecciones. String [] args es un marcador de posición para la información que queremos transmitir a nuestro programa. Esta sintaxis es necesaria para que el programa se ejecute, pero más avanzada de lo que necesitamos explorar en este momento.
+
+Nuestro programa imprimió "Hola Mundo" con la línea:
+/////////////////////////////////////////
+System.out.println("Hello World");
+////////////////////////////////////////////
