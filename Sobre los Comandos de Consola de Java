@@ -1,0 +1,26 @@
+Java es un lenguaje de programación compilado, 
+lo que significa que un compilador transforma el código de bytes en un código .
+java antes de que lo ejecute la Máquina Virtual Java en su computadora.
+
+Un compilador es un programa que traduce lenguajes de programación amigables para el ser humano a otros lenguajes de programación 
+que las computadoras pueden ejecutar.
+
+El compilador de Java ejecuta una serie de comprobaciones mientras transforma el código. 
+El código que no pase estas verificaciones no será compilado.
+////////
+javac  test.java
+///////
+Una compilación fallida produce una lista de errores. 
+No se crea un archivo .class hasta que se corrigen los errores y se ejecuta nuevamente el comando de compilación.
+
+Como recordatorio, podemos compilar un archivo .java desde el terminal con el comando: javac FileName.java.
+
+Si el archivo se compila correctamente, este comando produce una clase ejecutable: FileName.class. 
+Ejecutable significa que podemos ejecutar este programa desde el terminal.
+
+Ejecutamos el ejecutable con el comando: java FileName. 
+Tenga en cuenta que omitimos la parte .class del nombre de archivo.
+
+/////// 
+java test
+//////
