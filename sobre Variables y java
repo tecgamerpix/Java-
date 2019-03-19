@@ -36,3 +36,17 @@ Por ejemplo, para asignar 2011 a una variable llamada yearCodecademyWasFounded d
 //////////////
 int yearCodecademyWasFounded = 2011;
 ////////////////////////
+
+
+El primer tipo de datos que almacenaremos es el número entero. 
+Los números enteros son muy comunes en la programación.
+Con frecuencia, los utiliza para almacenar edades, tamaños máximos o la cantidad de veces que se ha ejecutado algún código, 
+entre muchos otros usos.
+
+En Java, los números enteros se almacenan en el tipo de datos primitivos int.
+
+Los ints tienen números positivos, números negativos y cero. No almacenan fracciones ni números con decimales.
+
+El tipo de datos int permite valores entre -2,147,483,648 y 2,147,483,647, inclusive.
+
+Para declarar una variable de tipo int, usamos la palabra clave int antes del nombre de la variable:
