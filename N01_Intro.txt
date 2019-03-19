@@ -1,3 +1,4 @@
+NOTA 01
 JAVA
 Sun Microsystems lanzó el lenguaje de programación Java en 1995. Java es conocido por ser simple, portátil, 
 seguro y robusto.
