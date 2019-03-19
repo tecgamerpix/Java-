@@ -1,0 +1,38 @@
+GANA JAVA: VARIABLES
+Introducción
+Digamos que necesitamos un programa que conecte a un usuario con nuevos trabajos. 
+Necesitamos el nombre del usuario, su salario y su situación laboral. Toda esta información se almacena en nuestro programa.
+
+Almacenamos información en variables, ubicaciones nombradas en memoria.
+
+Nombrar una parte de la información nos permite usar ese nombre más tarde, accediendo a la información que almacenamos.
+
+Las variables también dan contexto y significado a los datos que estamos almacenando. 
+El valor 42 podría ser la edad de alguien, un peso en libras o el número de pedidos realizados. Con un nombre, sabemos que el valor 42 es age, weightInPounds o numOrdersPlaced.
+
+En Java, especificamos el tipo de información que estamos almacenando. 
+Los tipos de datos primitivos son tipos de datos incorporados al sistema Java.
+
+Debemos declarar una variable para referenciarla dentro de nuestro programa. 
+Declarar una variable requiere que especifiquemos el tipo y el nombre:
+///////////////////////////
+// datatype variableName
+int age;
+double salaryRequirement;
+boolean isEmployed;
+///////////////////////
+
+Los tipos de estas variables son int, double y boolean. Esta lección introducirá estos tipos incorporados y más.
+
+Los nombres de las variables son age, salarioRequirement y isEmployed.
+
+Estas variables no tienen ningún valor asociado. Para asignar un valor a una variable, usamos el operador de asignación 
+//////////
+age = 85;
+
+¡Es común declarar una variable y asignar el valor en una línea!
+
+Por ejemplo, para asignar 2011 a una variable llamada yearCodecademyWasFounded de tipo int, escribimos:
+//////////////
+int yearCodecademyWasFounded = 2011;
+////////////////////////
