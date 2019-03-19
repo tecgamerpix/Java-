@@ -1,3 +1,4 @@
+N02 
 Java no interpreta los espacios en blanco, las áreas del código sin sintaxis,
 pero los humanos usan los espacios en blanco para leer el código sin dificultad.
 
