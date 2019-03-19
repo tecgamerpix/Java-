@@ -50,3 +50,11 @@ Los ints tienen números positivos, números negativos y cero. No almacenan frac
 El tipo de datos int permite valores entre -2,147,483,648 y 2,147,483,647, inclusive.
 
 Para declarar una variable de tipo int, usamos la palabra clave int antes del nombre de la variable:
+//////////////////////////////////////
+// int variable declaration
+int yearJavaWasCreated;
+// assignment
+yearJavaWasCreated = 1996;
+// declaration and assignment
+int numberOfPrimitiveTypes = 8;
+////////////////////////////////////
