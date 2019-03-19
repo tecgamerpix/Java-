@@ -58,3 +58,22 @@ yearJavaWasCreated = 1996;
 // declaration and assignment
 int numberOfPrimitiveTypes = 8;
 ////////////////////////////////////
+
+dobles
+Los números enteros no cumplen con lo que necesitamos para cada programa. 
+¿Y si quisiéramos almacenar el precio de algo? Necesitamos un punto decimal. 
+¿Y si quisiéramos almacenar la población mundial? Ese número sería más grande de lo que puede contener el tipo int.
+
+El tipo de datos primitivo doble puede ayudar.
+El doble puede contener decimales, así como números muy grandes y muy pequeños. 
+El valor máximo es 1.797.693.134.862.315,7 E + 308, que es aproximadamente 17 seguido de 307 ceros.
+El valor mínimo es 4.9 E-324, que es 324 lugares decimales!
+
+Para declarar una variable de tipo double, usamos la palabra clave double en la declaración:
+////////////////
+// doubles can have decimal places:
+double price = 8.99;
+// doubles can have values bigger than what an int could hold:
+double gdp = 12237700000;
+///////////////
+
