@@ -77,3 +77,10 @@ double price = 8.99;
 double gdp = 12237700000;
 ///////////////
 
+Declaramos las variables booleanas usando la palabra clave booleana antes del nombre de la variable.
+/////////
+boolean javaIsACompiledLanguage = true;
+boolean javaIsACupOfCoffee = false;
+////////
+
+
