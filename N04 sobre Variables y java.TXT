@@ -83,4 +83,11 @@ boolean javaIsACompiledLanguage = true;
 boolean javaIsACupOfCoffee = false;
 ////////
 
+Nombrar variables de acuerdo con la convención conduce a un código claro, legible y mantenible. Cuando alguien más, o nuestro yo futuro, lee el código, no hay confusión sobre el propósito de una variable.
+
+En Java, los nombres de variables distinguen entre mayúsculas y minúsculas. myHeight es una variable diferente de myheight. La longitud del nombre de una variable es ilimitada, pero debemos mantenerlo conciso y al mismo tiempo mantener el significado claro.
+
+Una variable comienza con una letra válida, o $ o una _. Ningún otro símbolo o número puede comenzar un nombre de variable. 1stPlace y * Gazer no son nombres de variables válidos.
+
+Los nombres de variable de una sola palabra están escritos en letras minúsculas. Los nombres de variable de más de una palabra tienen la primera letra en minúscula, mientras que la letra inicial de cada palabra subsiguiente está en mayúscula. Este estilo de mayúsculas se llama camelCase.
 
