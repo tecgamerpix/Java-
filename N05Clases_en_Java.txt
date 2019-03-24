@@ -1,0 +1,28 @@
+Introducción a las clases
+Todos los programas requieren una o más clases que actúan como modelo para el mundo.
+
+Por ejemplo, un programa para realizar un seguimiento de los puntajes de las pruebas de los estudiantes puede tener clases de Estudiante, 
+Curso y Grado. Nuestras preocupaciones del mundo real, los estudiantes y sus calificaciones, están dentro del programa como clases.
+
+Representamos a cada estudiante como una instancia, u objeto, de la clase del estudiante.
+
+Esta es una programación orientada a objetos porque los programas se construyen alrededor de los objetos y sus interacciones. 
+Un objeto contiene estado y comportamiento.
+
+Las clases son un plano para los objetos. Los planos detallan la estructura general.
+Por ejemplo, todos los estudiantes tienen una identificación, todos los cursos pueden inscribir a un estudiante, etc.
+
+Una instancia es la cosa misma. Este estudiante tiene una identificación de 42, este curso inscribió a ese estudiante, etc.
+
+Revisemos con otro ejemplo, una cuenta de ahorros en un banco.
+
+¿Qué debe saber una cuenta de ahorros?
+
+El saldo de dinero disponible.
+¿Qué debe hacer una cuenta de ahorros?
+
+Depositar dinero.
+Retirar dinero.
+Imagina que dos personas tienen cuentas que son instancias de la clase SavingsAccount. 
+Comparten el comportamiento (cómo depositan y retiran) pero tienen un estado individual (sus saldos),
+e incluso con el mismo monto de saldo, estas cuentas son entidades separadas.
