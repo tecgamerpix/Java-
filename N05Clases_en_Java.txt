@@ -26,3 +26,40 @@ Retirar dinero.
 Imagina que dos personas tienen cuentas que son instancias de la clase SavingsAccount. 
 Comparten el comportamiento (cómo depositan y retiran) pero tienen un estado individual (sus saldos),
 e incluso con el mismo monto de saldo, estas cuentas son entidades separadas.
+
+El concepto fundamental de la programación orientada a objetos es la clase. Una clase es el conjunto de instrucciones que describen cómo se puede comportar una instancia y qué información contiene.
+
+Java tiene clases predefinidas como Sistema, que hemos usado para registrar texto en nuestra pantalla, pero también necesitamos escribir nuestras propias clases para las necesidades personalizadas de un programa.
+
+Aquí hay una definición de una clase de Java
+::::::::
+
+public class Car {// scope of Car class starts here
+
+  public static void main(String[] args) {// scope of main() starts here
+    // program tasks
+  }// scope of main() ends here
+
+}// scope of Car class ends here
+:::::::::
+Su ejemplo define una clase llamada Car. public es un modificador de nivel de acceso que permite que otras clases interactúen con esta clase. Por ahora, todas las clases serán públicas.
+
+Esta clase tiene un método main (), que enumera las tareas realizadas por el programa. main () se ejecuta cuando ejecutamos el archivo Car.class compilado.
+
+Clases: Constructores
+Creamos instancias con un método constructor definido dentro de la clase.
+
+Aquí está la clase de coches con un constructor:
+::::::::
+public class Car {
+  public Car() {//constructor method starts
+
+    // create Car instance
+
+  }//constructor method ends
+
+  public static void main(String[] args) {
+    // program tasks
+  }
+}
+
