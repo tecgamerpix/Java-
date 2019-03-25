@@ -1,0 +1,21 @@
+Este método se ve como:
+/////
+public void startEngine() {
+  System.out.println("Starting the car!");
+  System.out.println("Vroom!");
+}
+
+La primera línea, public void startEngine (), es la firma del método. Le da al programa alguna información sobre el método:
+
+Públic significa que otras clases pueden acceder a este método. Aprenderemos más sobre eso más adelante en el curso.
+La palabra clave void significa que no hay una salida específica del método. Veremos métodos que no son nulos más adelante en esta lección, pero por ahora todos nuestros métodos serán nulos.
+startEngine () es el nombre del método.
+
+Un método checkBalance () para la cuenta de ahorros de la que hablamos anteriormente se parece a algo como:
+////////
+public void checkBalance(){
+  System.out.println("Hello!");
+  System.out.println("Your balance is " + balance);
+}
+////////
+
